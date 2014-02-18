@@ -1,0 +1,14 @@
+Feb 18 21:01:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Feb 18 21:01:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Feb 18 21:01:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Feb 18 21:01:38 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Feb 18 21:01:38 symfony [info] {sfPHPView} Render "/vagrant/_lib/symfony-1.4.13/lib/controller/default/templates/indexSuccess.php"
+Feb 18 21:01:38 symfony [info] {sfPHPView} Decorate content with "/vagrant/_lib/symfony-1.4.13/lib/controller/default/templates/defaultLayout.php"
+Feb 18 21:01:38 symfony [info] {sfPHPView} Render "/vagrant/_lib/symfony-1.4.13/lib/controller/default/templates/defaultLayout.php"
+Feb 18 21:01:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Feb 18 21:01:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Feb 18 21:01:38 symfony [info] {sfWebDebugLogger} Configuration 131.50 ms (9)
+Feb 18 21:01:38 symfony [info] {sfWebDebugLogger} Factories 1546.18 ms (1)
+Feb 18 21:01:38 symfony [info] {sfWebDebugLogger} Action "default/index" 1.61 ms (1)
+Feb 18 21:01:38 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 23.44 ms (1)
+Feb 18 21:01:39 symfony [info] {sfWebResponse} Send content (28396 o)
